@@ -1,0 +1,76 @@
+.graphics{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.digital{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -47px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.writing{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.video{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -150px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.music{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.tech{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -245px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.business{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -350px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.fun{
+    background-size: 56px 400px;
+    background-repeat: no-repeat;
+    background-position: 0 -298px;
+    display: block;
+    width: 56px;
+    height: 50px;
+    margin: 0 auto;
+}
+.card{
+    height:30px;
+}
