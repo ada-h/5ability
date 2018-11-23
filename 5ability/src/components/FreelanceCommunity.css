@@ -1,0 +1,38 @@
+
+.seller{
+    zoom:1;
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.community{
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 20%;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.definition{
+    color: white;
+    margin: 200px 50px 50px 0px; 
+}
+
+.username{
+    color: white;
+}

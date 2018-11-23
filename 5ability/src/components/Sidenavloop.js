@@ -1,15 +1,16 @@
 import React from 'react'
 import Sidenav from './Sidenav'
-import graphics from '../data/graphics'
 
-const Sidenavloop = () =>{
-    const Sidenavtree = graphics.map((describe, i) =>{
-        return <Sidenav key= {i} description = {graphics[i].description}/>
+const Sidenavloop = ({data}) =>{
+    const Sidenavtree = data.map((describe, i) =>{
+        return <Sidenav key= {i} description = {data[i].description}/>
     })
 
     return (
         <div>
+            <ul className = 'sidenav'>
             {Sidenavtree}
+            </ul>
         </div>
     )
 }

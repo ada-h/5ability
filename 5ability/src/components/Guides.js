@@ -3,7 +3,7 @@ import React from 'react'
 const Guides = () =>{
 
     return(
-        <div className = 'dib tc w-100 fl mb3-ns'>
+        <div className = 'dib tc w-100 mb3-ns'>
             <div> 
                 <h2> 5ability Guides</h2>
                 <p className=""> How to use Fiverr to build and grow your business</p>       
@@ -33,7 +33,7 @@ const Guides = () =>{
                 </div>
             </div>
 
-            <div>
+            <div className = ''>
                 <button className="see-more btn br2-ns">
                     See More Guides
                 </button>

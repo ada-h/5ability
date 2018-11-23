@@ -4,7 +4,7 @@ const Freelancers = () =>{
     return(
         <div className= "fl-ns"> 
             <div className="fit-collapsable">
-                <label for= "collapsible-footer-group-5">
+                <label>
                     <h4> For Freelancers </h4>
                 </label>
             </div>

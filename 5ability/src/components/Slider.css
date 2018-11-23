@@ -1,0 +1,23 @@
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+.slider{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 20px;
+  }
+
+.slide{
+    padding: 70px;
+}
+.text{
+    margin-top: 100px;
+}

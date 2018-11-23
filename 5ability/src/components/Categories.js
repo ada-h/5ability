@@ -4,7 +4,7 @@ const Categories = () =>{
     return(
         <div className= "fl-ns">
             <div className="fit-collapsable">
-                <label for= "collapsible-footer-group-1">
+                <label>
                     <h4> Categories </h4>
                 </label>
             </div>

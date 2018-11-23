@@ -5,7 +5,7 @@ const Support = () =>{
     return(
         <div className= "fl-ns">
              <div className="fit-collapsable">
-                <label for= "collapsible-footer-group-3">
+                <label>
                     <h4> Support </h4>
                 </label>
             </div>

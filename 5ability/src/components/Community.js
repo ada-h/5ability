@@ -4,7 +4,7 @@ const Community = () =>{
     return (
         <div className= "fl-ns">
             <div className="fit-collapsable">
-                <label for= "collapsible-footer-group-4">
+                <label>
                     <h4> Community </h4>
                 </label>
             </div>
