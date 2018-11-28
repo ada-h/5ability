@@ -1,0 +1,32 @@
+.landingh2{
+    color: white !important;
+    font-size: 70px !important;
+    padding: 70px;
+    font-family: cursive !important;
+    padding-bottom: 0;
+}
+.handPicked{
+    color: white !important;
+    padding: 70px;
+    padding-top: 0;   
+    padding-bottom: 0;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    background-color:  #61dafb;
+    color: white;
+}
+.proB{
+    margin-left: 70px
+}
+
+.explorePro{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.prolanding{
+    margin: 50px !important;
+}  

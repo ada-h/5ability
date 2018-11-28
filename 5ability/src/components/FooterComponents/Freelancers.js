@@ -2,10 +2,10 @@ import React from 'react'
 
 const Freelancers = () =>{
     return(
-        <div className= "fl-ns"> 
+        <div className= "fl-ns col-lg-2 tl"> 
             <div className="fit-collapsable">
                 <label>
-                    <h4> For Freelancers </h4>
+                    <h5> For Freelancers </h5>
                 </label>
             </div>
             <div className="articles">

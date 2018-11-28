@@ -2,13 +2,10 @@ import React from 'react'
 
 const Categories = () =>{
     return(
-        <div className= "fl-ns">
-            <div className="fit-collapsable">
+        <div className= "fl-ns col-lg-3 tl">
                 <label>
-                    <h4> Categories </h4>
-                </label>
-            </div>
-           <div className="">
+                    <h5> Categories </h5>
+                </label>        
                <ul>
                     <li className= "list"><a href='#' className= "link mid-gray">Graphics & Design </a></li>
                     <li className= "list"><a href='#' className= "link mid-gray">Digital Marketing</a></li>
@@ -20,7 +17,6 @@ const Categories = () =>{
                     <li className= "list"><a href='#' className= "link mid-gray">Fun & Lifestyle</a></li>
                     <li className= "list"><a href='#' className= "link mid-gray" >Sitemap</a></li>
                </ul>
-            </div>
         </div>
     )
 }

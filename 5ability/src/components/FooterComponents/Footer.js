@@ -8,7 +8,7 @@ import Freelancers from './Freelancers'
 class Footer extends React.Component {
     render(){
     return (
-        <div className="dib-ns">
+        <div>
             <Categories/>,
             <About/>
             <Support/>

@@ -1,4 +1,7 @@
 import React from 'react'
+import Proiconloop from './Loops/Proiconloop'
+import Proiconheader from './Headers/Proiconheader'
+import Viewmoreservicebutton from './Viewmoreservicebutton'
 
 const Prothat = () => {
 
@@ -7,7 +10,9 @@ const Prothat = () => {
     } 
     return (
         <div className = 'explorePro' style = {BackgroundImage}>
-            <h3>We’ve Got A Pro For That </h3>
+           <Proiconheader/>
+            <Proiconloop/>
+            <Viewmoreservicebutton/>
         </div>
     )
 }

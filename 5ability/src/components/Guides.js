@@ -32,12 +32,7 @@ const Guides = () =>{
                     <p>Differentiating yourself from the competition</p>           
                 </div>
             </div>
-
-            <div className = ''>
-                <button className="see-more btn br2-ns">
-                    See More Guides
-                </button>
-            </div>
+            
         </div>
     )
 }

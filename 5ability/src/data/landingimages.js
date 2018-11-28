@@ -1,4 +1,4 @@
-const landingImages = [
+const LandingImages = [
     {
         "id": "1",
         "image": require('./../images/buyer_stories1.jpg')
@@ -21,4 +21,4 @@ const landingImages = [
 
 ]
 
-export default  landingImages;
+export default  LandingImages;

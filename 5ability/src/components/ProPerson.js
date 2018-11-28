@@ -9,6 +9,9 @@ class ProPerson extends Component{
                     <img src = {image} alt = {name} />
                 </div>
                 <div>
+                    <h5>{name}</h5>
+                </div>
+                <div>
                     <p> {description}</p>
                 </div>
                 <div>

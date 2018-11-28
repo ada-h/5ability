@@ -1,27 +1,34 @@
 import React, {Component} from 'react'
-import './Modal.css';
-
 
 class Modal extends Component{
     constructor(props){
-    super(props);
-    this.state = {
-        isVisible: true
+        super()
     }
-    }
-  render(){
-      const {closeModalHandler, isVisible, closeModal} = this.props
-      const modalStyle = {
-          display: isVisible ? 'block' : 'none'
-      }
-      return(
-          <div className="modal-overlay" style={modalStyle}>
-            <button onClick={closeModalHandler}>close me</button>
-            <div className="modal-bodyr">
-             The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannof, but still need the element to resemble a link, use a button and change it with appropriate styles.
+    
+    render(){
+        return(
+            <div>
+                {/* Modal */}               
+                 <div className="modal fade" id="myModal" role="dialog">
+                  <div className="modal-dialog">    
+                    {/* Modal content*/}
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <button type="button" className="close" data-dismiss="modal">×</button>
+                      </div>
+                      <div className="modal-body">
+                        <div className ="col-lg-8">
+                            <img src = {this.props.image} alt = "testimonials"/>
+                        </div>
+                        <div className ="col-lg-4">
+                            <button type = 'button'> Start selling </button>
+                        </div>
+                      </div>
+                    </div>     
+                  </div>
+                </div> 
             </div>
-          </div>
-      )
-  }
+        )
+    }
 }
 export default Modal

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
-import Marketplace from './Marketplace';
+import './Css/App.css';
+import Marketplace from './Loops/Marketplace';
 import 'tachyons';
-import MarketHeader from './MarketHeader';
+import MarketHeader from './Headers/MarketHeader';
 import Banner from './Banner';
 import Professionals from './professionals';
 import Guides from './Guides';
-import Footer from './Footer'
+import Footer from './FooterComponents/Footer'
 import Mainnav from './Mainnav'
 import Landing from './Landing'
 import Slider from './Slider'
-import LandingImage from './LandingImage';
+import Guidesbutton from './Guidesbutton';
 
 class App extends Component {
 
@@ -23,6 +23,7 @@ class App extends Component {
           <Marketplace/>
           <Professionals/>
           <Guides/>
+          <Guidesbutton/>
           <Banner/>
           <Slider/> 
           <Footer/>

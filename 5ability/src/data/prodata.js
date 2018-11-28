@@ -1,6 +1,6 @@
 const Prodata = [
     {
-        "image": "y",
+        "image": "https://fiverr-res.cloudinary.com/w_iw_div_1.5,q_100,f_auto/general_assets/pro_experience/assets/images/f1/lp_seller1.jpg",
         "name": "Rob Janoff",
         "contact": "Contact Rob",
         "description": "Designer of the Apple logo and brand artist to numerous companies. Worked with startups and established multinationals over a career spanning 40 years."

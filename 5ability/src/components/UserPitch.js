@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Footer from './Footer'
+import Footer from './FooterComponents/Footer'
 
 class UserPitch extends Component{
 

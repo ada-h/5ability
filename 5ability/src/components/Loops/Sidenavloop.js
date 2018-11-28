@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidenav from './Sidenav'
+import Sidenav from '../Sidenav'
 
 const Sidenavloop = ({data}) =>{
     const Sidenavtree = data.map((describe, i) =>{

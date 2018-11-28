@@ -1,21 +1,32 @@
 import React, {Component} from 'react'
-import Footer from './Footer'
-import FreelanceCommunityLoop from './FreelanceCommunityloop'
+import Footer from './FooterComponents/Footer'
+import FreelanceCommunityLoop from './Loops/FreelanceCommunityloop'
 import GetStarted from './GetStarted';
-import CommunityHeader from './communityHeader'
-import BuyerHeader from './BuyerHeader'
-import BuyerLoop from './BuyerLoop'
+import CommunityHeader from './Headers/communityHeader'
+import BuyerHeader from './Headers/BuyerHeader'
+import BuyerLoop from './Loops/BuyerLoop'
+import QandA from './QandA'
+import QandAHeader from './Headers/QandA'
+import Mainnav from './Mainnav'
+import SellingVid from './sellingvid'
 
 class StartSelling extends Component{
+    constructor(){
+        super()
+    }
     render(){
         return(
-            <div>
+            <div className= 'App'>
+                <Mainnav/>
+                <SellingVid/>
                 <CommunityHeader/>
                 <div className = 'tc mb2-ns'>
                     <FreelanceCommunityLoop/>
                 </div>     
-                <BuyerHeader/>   
-                <BuyerLoop/>      
+                <BuyerHeader/> 
+                <BuyerLoop/>   
+                <QandAHeader/>
+                <QandA/>                                      
                 <GetStarted/>
                 <Footer/>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import OfferedService from './OfferedService';
-import icons from '../data/icons';
+import OfferedService from '../OfferedService';
+import icons from '../../data/icons';
 
 const MarketPlace = () =>{
     const marketProducts = icons.map ((service, i) => {

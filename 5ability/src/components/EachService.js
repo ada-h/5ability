@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Banner from './Banner'
-import Footer from './Footer'
-import GandDtree from './ganddtree';
-import Sidenavloop from './Sidenavloop'
+import Footer from './FooterComponents/Footer'
+import GandDtree from './Loops/ganddtree';
+import Sidenavloop from './Loops/Sidenavloop'
 import withRouter from 'react-router-dom/withRouter';
 import graphics from '../data/graphics'
 import videoandanime from '../data/videoandanime'
@@ -51,15 +51,13 @@ class EachService extends Component {
 
             <div>
                 <div className="row">
-                <div className="col-md-3">
-                <Sidenavloop data ={this.data}/>
-                </div>
-                <div className="col-md-9">
-                <GandDtree data = {this.data}/>   
-                </div>
-                </div>
-                
-                      
+                    <div className="col-md-3">
+                        <Sidenavloop data ={this.data}/>
+                    </div>
+                    <div className="col-md-9">
+                        <GandDtree data = {this.data}/>   
+                    </div>
+                </div>                     
                 <Banner />
                 <Footer />
 

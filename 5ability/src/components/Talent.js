@@ -2,12 +2,15 @@ import React from 'react'
 
 const Talent = () =>{
     return(
-        <div className = 'mt-3'>
-            <div className = "col-lg-7">
+        <div className = 'talentfromtop row'>
+            <div className = "col-lg-7 talent">
                 <h1>Talent From The Top 1%.</h1> 
-                <p> Fiverr's hand-vetted, high-end talent undergo an extensive application process (only 1% of applicants are accepted), ensuring best-in-class, simple solutions.</p>
+                <p> 5ability's hand-vetted, high-end talent undergo an extensive 
+                    application process (only 1% of applicants are accepted), ensuring 
+                    best-in-class, simple solutions.
+                </p>
                 <div>
-                 <a href = 'Work With Top 1%'/> <span className =''/>
+                 <a href =''> Work with Top 1% > </a> 
                 </div>
             </div>
           

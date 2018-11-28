@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+.proservicebutton {
+  background-color:  #61dafb;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border-right: 10px;
+}
+
+.hire{
+  background-color: #222;
+  height: 200px;
+}
+
+.hireh3{
+  color: white;
+  text-align: center;
+  padding: 50px;
+  padding-bottom:0;
+  font-size: 35px; 
+}
+
+.sidenav{
+  font-size: 20px;
+}
+
+.header-text{
+  margin-left: 200px;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.QandA {
+  margin:40px;
+}
+.proh3{
+  color: white;
+  font-size: 30px !important;
+  padding-top: 150px;
+}
+
+.talent{
+  padding: 90px !important;
+}
+.talentfromtop{
+  padding: 70px;
+}
+.proseller{
+  padding: 50px;
+}
+.prosellerbutton{
+  text-align: right;
+}
+.probutton{
+  background-color: white !important;
+  color: black;
+  border: 1px solid black;
+}
+.probutton:hover{
+  border: 1px solid #222 !important;
+  color: #222 !important;
+}
+.prolabel{
+  color: white !important;
+}
+.viewmoreservice{
+  background-color: transparent;
+  margin-left: 600px;
+}
+.exploreheader{
+  margin-top: 30px;
+}
+.iconlabel{
+  color: black;
+}
+.iconlabel:hover{
+  text-decoration-line: none;
+}

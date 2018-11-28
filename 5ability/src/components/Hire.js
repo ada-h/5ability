@@ -3,9 +3,9 @@ import React from 'react'
 const Hire = ()=>{
     return (
         <div className = 'hire'>
-            <h3> Go Higher</h3>
-            <div className = "" >
-                <button type= 'button' className ='button'> Find Pro Services </button>
+            <h3 className = 'hireh3'> Go Higher. Hire Pros.</h3>
+            <div className = "App" >
+                <button type= 'button' className ='proservicebutton'> Find Pro Services </button>
             </div>         
         </div>
     )

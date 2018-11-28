@@ -1,6 +1,6 @@
 import React from 'react'
-import Buyer from './Buyer'
-import BuyerData from '../data/buyerdata'
+import Buyer from '../Buyer'
+import BuyerData from '../../data/buyerdata'
 
 const BuyerLoop = () =>{
    const Buyermap = BuyerData.map((details, i) =>{

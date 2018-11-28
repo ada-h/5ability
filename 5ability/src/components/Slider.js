@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './Slider.css'
+import './Css//Slider.css'
 import Slide from './Slide'
 import LeftArrow from './LeftArrows'
 import RightArrow from './RightArrows'
@@ -27,19 +27,13 @@ class Slider extends Component{
 
     goToPrev(){
         let currentIndex = this.state.currentIndex - 1 < 0 ? this.state.data.length - 1 : this.state.currentIndex - 1;
-        // console.log(currentIndex);
         this.setState({ currentIndex});
     }
 
-   // goToNext(){
-     //   let currentIndex = this.state.currentIndex + 1 ? this.state.data.length 
-    //     if(this.state.currentIndex === this.state.data.length - 1){
-    //         return this.setState({
-    //             currentIndex: 0,
-    //             translateValue: 0,
-    //         })
-    //     }
-    // }
+   goToNext(){
+    let currentIndex = this.state.currentIndex + 1;
+        this.setState({currentIndex});
+    }
 
     render(){
         let currentIndex = this.state.currentIndex;
@@ -58,7 +52,7 @@ class Slider extends Component{
                         image = {details.image}
                         />
                 </div>      
-                <RightArrow goToNext = {this.goToNext}/>
+                <RightArrow goToNext = {this.goToNext.bind(this)}/>
             </div>
         )
         

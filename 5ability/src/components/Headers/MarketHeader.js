@@ -2,7 +2,7 @@ import React from 'react';
 
 const MarketHeader =() => {   
         return(
-            <div className= 'tc'>
+            <div className= 'tc exploreheader'>
                 <h1> Explore The Marketplace </h1>
                 <p> Get inspired to build your business </p>               
             </div>

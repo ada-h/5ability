@@ -8,7 +8,7 @@ const ProPeople = () =>{
     })
 
     return(
-        <div>
+        <div className= 'App'>
             {proPeopleloop}
         </div> 
     )

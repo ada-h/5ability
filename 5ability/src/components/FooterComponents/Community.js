@@ -2,13 +2,11 @@ import React from 'react'
 
 const Community = () =>{
     return (
-        <div className= "fl-ns">
-            <div className="fit-collapsable">
-                <label>
-                    <h4> Community </h4>
-                </label>
-            </div>
-            <div className="articles">
+        <div className= "fl-ns col-lg-3 tl">
+            <label>
+                <h5> Community </h5>
+            </label>        
+        
                 <ul>
                     <li className= "list"><a href='' className= "link mid-gray">Events</a></li>
                     <li className= "list"><a href='' className= "link mid-gray">Blog </a></li>
@@ -18,7 +16,6 @@ const Community = () =>{
                     <li className= "list" ><a href='' className= "link mid-gray">Invite a Friend</a></li>
                     <li className= "list"><a href='' className= "link mid-gray"> Fiverr Elevate</a></li>
                 </ul>
-            </div>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import EachService from './EachService'
 import UserPitch from './UserPitch'
 import StartSelling from './StartSelling'
 import ExplorePro from './ExplorePro'
+import ProPitch from './ProPitch' 
 
 class Routing extends Component{
     
@@ -16,6 +17,7 @@ class Routing extends Component{
                     <Route exact path= '/start_selling' component = {StartSelling}/>
                     <Route exact path = '/categories/:id' component ={EachService}/> 
                     <Route exact path = '/pro/about' component ={ExplorePro}/> 
+                    <Route exact path = '/pro/categories/writing-translation/:id' component = {ProPitch}/>
                     <Route exact path = '/categories/userpitch/:description' component = {UserPitch}/>
                 </div>
             </Router>

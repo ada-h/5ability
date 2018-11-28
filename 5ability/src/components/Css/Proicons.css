@@ -1,0 +1,13 @@
+.icons{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 50px;
+}
+.icon-p{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
