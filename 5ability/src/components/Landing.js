@@ -25,14 +25,15 @@ class Landing extends Component {
       let currentImage = this.state.currentImage
       let images = this.state.data[currentImage]
       return (
-        <header className="container-fluid header desktopHeader">
+        <header className="desktopHeader">
           <div className="row desktop-header">
-           <Images key={currentImage} image={images.image} name= {images.name} profession = {images.Profession}/>
+           <Images key={currentImage} image={images.image} name= {images.name} 
+            profession = {images.Profession}/>
             <div className="header-text">
               <h1>Don't Just Dream, Do</h1>
               <p> Freelance services. On demand.</p>
-              <div className="video-play">
-                <a href="#"><i className="fa fa-btn-play">See for yourself</i></a>
+              <div>
+                <i className="fa fa-btn-play">See for yourself</i>
               </div>
             </div>
           </div>

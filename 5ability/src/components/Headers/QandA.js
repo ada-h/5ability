@@ -2,7 +2,7 @@ import React from 'react'
 
 const QandAHeader = () => {
     return(
-      <h1 className = 'QandA'> Q & A</h1>
+      <h1 className = 'header'> Q & A</h1>
     )
 } 
 

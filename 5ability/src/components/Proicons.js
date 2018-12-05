@@ -14,7 +14,7 @@ class Proicon extends Component {
             backgroundImage: `url(${icon})`
         }
         return(
-            <Link to = {`/pro/categories/writing-translation/${id}`}>
+            <Link to = {`/pro/categories/${label}/${id}`}>
                 <div  className = "col-lg-3 icons">
                     <div style = {Style} className = 'icon-p'> </div>
                     <p className = "prolabel"> {label}</p> 

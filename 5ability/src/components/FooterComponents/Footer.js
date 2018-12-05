@@ -9,6 +9,7 @@ class Footer extends React.Component {
     render(){
     return (
         <div>
+            <hr/>
             <Categories/>,
             <About/>
             <Support/>

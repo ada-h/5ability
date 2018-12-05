@@ -8,9 +8,11 @@ class Images extends Component{
 
     render(){
         const {image,name, profession} = this.props
+      
         return (
             <div>
-                <img className="img-responsive" src= {image} height= '500px'/> 
+                <img className="img-responsive" src= {image} height= '400px'/> 
+
             </div>
             
         )

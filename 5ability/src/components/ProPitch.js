@@ -14,9 +14,20 @@ class ProPitch extends Component{
 
         switch (categoryId){
             case 1: data = blog;
-            break 
+            break; 
             case 2: data = SEO;
-            break 
+            break;
+            case 3: data = blog;
+            break;
+            case 4: data = SEO;
+            break;
+            case 5: data = blog;
+            break;
+            case 6: data = SEO;
+            break;
+            case 7: data = blog;
+            break;
+            case 8: data = blog;           
         }
         this.data = data
     }

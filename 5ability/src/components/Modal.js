@@ -9,7 +9,7 @@ class Modal extends Component{
         return(
             <div>
                 {/* Modal */}               
-                 <div className="modal fade" id="myModal" role="dialog">
+                 <div className="modal fade" id="sellerModal" role="dialog">
                   <div className="modal-dialog">    
                     {/* Modal content*/}
                     <div className="modal-content">
@@ -19,9 +19,6 @@ class Modal extends Component{
                       <div className="modal-body">
                         <div className ="col-lg-8">
                             <img src = {this.props.image} alt = "testimonials"/>
-                        </div>
-                        <div className ="col-lg-4">
-                            <button type = 'button'> Start selling </button>
                         </div>
                       </div>
                     </div>     

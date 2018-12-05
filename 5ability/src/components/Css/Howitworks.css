@@ -1,0 +1,29 @@
+.getpaid{
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+    background-size: 350px;
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.deliver{
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+    content: '';
+    display: block;
+    background-position: -294px 0;
+    background-size: 419px;
+    width: 64px;
+    height: 50px;
+}
+.create{
+    background-repeat: no-repeat;
+    margin: 0 auto 15px;
+    content: '';
+    display: block;
+    background-position: -200px 0;
+    background-size: 350px;
+    width: 50px;
+    height: 50px;
+}

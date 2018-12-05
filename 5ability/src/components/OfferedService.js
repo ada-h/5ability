@@ -13,25 +13,24 @@ class OfferedService extends Component{
     onMouseEnter=() => this.setState({onhover: true})
 
     render() {
-            
+       
     const {label, detail, image, description,id} = this.props;
+    const show = {display: 'block', borderTop:'1px solid green'}
+    const hide = {visibility: 'hidden'}
     const imageStyle = {
         backgroundImage: `url(${image})`,
     };
-    const Height = {
-        height: 150
-    }
+
         return(
-            <div className= 'dib mb3-ns pa2 br4 ma2 shadow-2 w-25-ns'
-                onMouseLeave={this.onMouseLeave} onMouseEnter={this.onMouseEnter}
-                style={Height} >
-                <Link to ={`/categories/${id}`}>
+            <div className= 'dib pa4 br4 col-sm-6 col-lg-3'
+                onMouseLeave={this.onMouseLeave} onMouseEnter={this.onMouseEnter}>
+                <Link to ={`/categories/${id}`} className = 'iconlabel'>
                     <div className = {detail} style={imageStyle}>
                     
                     </div>
                    <div>
-                       <h3 className = 'iconlabel'> {label} </h3> 
-                       <p className = 'iconlabel' >{this.state.onhover ? description : ''}</p>
+                       <h3> {label} </h3> 
+                       <p style = {this.state.onhover ? show : hide}>{description}</p>
                    </div>
                 </Link>
             </div>

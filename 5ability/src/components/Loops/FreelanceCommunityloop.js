@@ -15,7 +15,9 @@ class FreelanceCommunityLoop extends Component{
     render(){
         const CommunityLoop = Community.map((communitydata, i) =>{
             return(
-                <FreelanceCommunity onClick={() => this.setState({currentImage:Community[i].image})} key={i} image= {Community[i].image} username = {Community[i].username} skill = {Community[i].skill}/>
+                <FreelanceCommunity onClick={() => this.setState({currentImage:Community[i].image})} 
+                key={i} image= {Community[i].image} username = {Community[i].username} 
+                skill = {Community[i].skill}/>
         )})        
     return(
         <div>

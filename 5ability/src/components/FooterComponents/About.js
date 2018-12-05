@@ -2,13 +2,8 @@ import React from 'react'
 
 const About = () =>{
     return (
-        <div className= "fl-ns col-lg-2 tl">
-            <div className="fit-collapsable">
-                <label>
-                    <h5> About </h5>
-                </label>
-            </div>
-            <div className="articles">
+        <div className= "fl-ns col-lg-3 tl">     
+            <h5> About </h5>
                 <ul>
                     <li className= "list"><a href='' className= "link mid-gray">Careers </a></li>
                     <li className= "list"><a href='' className= "link mid-gray"> Press & News</a></li>
@@ -17,7 +12,6 @@ const About = () =>{
                     <li className= "list"><a href='' className= "link mid-gray"> Terms of Service</a></li>
                     <li className= "list"><a href='' className= "link mid-gray">Intellectual Property Claim</a></li>
                 </ul>
-            </div>
         </div>
     )
 }

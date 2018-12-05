@@ -1,0 +1,22 @@
+.questionbackground{
+    background-repeat: no-repeat;
+}
+.terms{
+    padding: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    font-size: 18px;
+}
+.startbutton{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    margin-left: 1200px;
+}
+.privacy{
+    text-align: center;
+    margin-bottom: 70px;
+}

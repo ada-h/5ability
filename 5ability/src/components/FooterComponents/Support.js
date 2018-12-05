@@ -3,11 +3,9 @@ import React from 'react'
 const Support = () =>{
 
     return(
-        <div className= "fl-ns col-lg-2 tl">
+        <div className= "fl-ns col-lg-3 tl">
              <div className="fit-collapsable">
-                <label>
                     <h5> Support </h5>
-                </label>
             </div>
              <div className="articles">
                 <ul>

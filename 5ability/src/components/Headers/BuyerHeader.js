@@ -1,10 +1,8 @@
 import React from 'react'
 
 const BuyerHeader = () =>{
-    return(
-        <div className = 'tc'>
-            <h3> Buyer Stories</h3>
-        </div>
+    return( 
+        <h3 className = 'tc header'> Buyer Stories</h3>   
     )
 }
 

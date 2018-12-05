@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import Workyourway from './Workyourway'
+import Gigsworth from './Gigsworth'
 
 class SellingVid extends Component {
     constructor(){
@@ -12,10 +14,15 @@ class SellingVid extends Component {
 
         
         return(
-            <video width="100%" height="auto" autoplay>
-                <source src={Video} type="video/mp4"/>
-                Your browser does not support the video tag.   
-            </video>
+            <div>
+                <video width="100%" height="auto" autoPlay>
+                    <source src={Video} type="video/mp4"/>
+                    Your browser does not support the video tag.   
+                </video>
+                <Workyourway/>
+                <Gigsworth/>
+            </div>
+          
         )
     }
 }

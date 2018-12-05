@@ -41,7 +41,7 @@ class Slider extends Component{
         console.log(this.state);
         const style = {
             transform: `translateX(${this.state.translateValue}px)`,
-            transition: 'transform ease-out 0.45s'
+            transition: 'transform ease-out 0.45s',
         }
         return(
             <div className = 'slider' style = {style}>

@@ -3,9 +3,7 @@ import React from 'react'
 const Categories = () =>{
     return(
         <div className= "fl-ns col-lg-3 tl">
-                <label>
-                    <h5> Categories </h5>
-                </label>        
+                <h5> Categories </h5>          
                <ul>
                     <li className= "list"><a href='#' className= "link mid-gray">Graphics & Design </a></li>
                     <li className= "list"><a href='#' className= "link mid-gray">Digital Marketing</a></li>

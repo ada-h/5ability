@@ -3,10 +3,7 @@ import React from 'react'
 const Community = () =>{
     return (
         <div className= "fl-ns col-lg-3 tl">
-            <label>
                 <h5> Community </h5>
-            </label>        
-        
                 <ul>
                     <li className= "list"><a href='' className= "link mid-gray">Events</a></li>
                     <li className= "list"><a href='' className= "link mid-gray">Blog </a></li>
