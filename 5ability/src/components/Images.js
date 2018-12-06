@@ -12,7 +12,6 @@ class Images extends Component{
         return (
             <div>
                 <img className="img-responsive" src= {image} height= '400px'/> 
-
             </div>
             
         )

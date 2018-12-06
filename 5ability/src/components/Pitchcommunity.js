@@ -8,13 +8,17 @@ class Pitchcommunity extends Component{
  render(){
      const {pitch, image, name, starting} = this.props
      console.log(image)
-     const style = {
-        backgroundImage : `url(${image})`
+     const BackgroundImage = {
+        backgroundImage : `url(${image})`,
+        height: 130
+     }
+     const coverDiv = {
+        margin: 20,
      }
 
      return(
-        <div>
-            <div style = {style}>
+        <div style = {coverDiv} className = 'col-lg-2 col-sm-12 gallerypic'>
+            <div style = {BackgroundImage}>
             
             </div>
             <div>

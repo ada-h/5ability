@@ -42,11 +42,12 @@ class Slider extends Component{
         const style = {
             transform: `translateX(${this.state.translateValue}px)`,
             transition: 'transform ease-out 0.45s',
+            width: 1500,
         }
         return(
             <div className = 'slider' style = {style}>
                 <LeftArrow goToPrev = {this.goToPrev.bind(this)}/>
-                <div className = "slider-wrapper"  style={style} >
+                <div style={style} >
                         <Slide key = {currentIndex} heading={details.heading}
                         quote = {details.quote} author = {details.author}
                         image = {details.image}

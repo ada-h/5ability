@@ -11,6 +11,7 @@ class UserPitch extends Component{
     constructor(props){
         super(props);    
         let categoryId = props.match.params.description;
+        console.log(categoryId)
 
         let data;
             switch (categoryId) {

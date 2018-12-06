@@ -6,7 +6,7 @@ class GraphicsandDesign extends Component{
     render(){
         const{description, image, id} = this.props;
         return( 
-                <Link to= {`/categories/${description}`}>
+                <Link to= {`/categories/${id}/${description}`}>
                     <div className= 'dib br4 dim o-50 pa4 col-lg-4'>
                         <img className= 'img-responsive' src = {image} alt = ""/>
                         <div>

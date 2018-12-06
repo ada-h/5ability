@@ -6,9 +6,12 @@ const PitchCommunityloop = ({data}) =>{
         return <Pitchcommunity key = {i} image = {data[i].image} name = {data[i].name} pitch = { data[i].pitch}
         starting = {data[i].starting} star = {data[i].star} />
     })
+    const coverDiv = {
+        margin: 35,
+     }
 
     return(
-        <div>
+        <div className ='row' style = {coverDiv}>
             {PitchedCommunity}
         </div>
         

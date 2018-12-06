@@ -4,6 +4,9 @@ import blog from '../data/blog'
 import SEO from '../data/seo'
 import Pitchlanding from './Pitchlanding'
 import Pitchcommunityloop from './Loops/Pitchcommunityloop'
+import Secondnavloop from './Loops/Secondnavloop';
+import CantfindPro from './CantfindPro'
+import  Faqs from './Faqs'
 
 class ProPitch extends Component{
     constructor(props){
@@ -34,8 +37,11 @@ class ProPitch extends Component{
     render(){
         return(
             <div>
+                <Secondnavloop/>
                 <Pitchlanding/>
                 <Pitchcommunityloop data = {this.data}/>
+                <CantfindPro/>
+                < Faqs/>
                 <Footer/>
             </div>
         )

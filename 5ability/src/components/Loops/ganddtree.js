@@ -1,5 +1,6 @@
 import React from 'react'
 import GraphicsandDesign from '../graphics&design';
+import graphics from '../../data/graphics'
 
 
 
@@ -9,9 +10,14 @@ const GandDtree = ({data}) =>{
                 description = {data[i].description}/>
     })
     
+    const GraphicId = graphics.map((unique, i)=>{
+        return <GraphicsandDesign key = {i} id = {graphics[i].id} />
+    })
+    
     return (
         <div>
             {Graphicstree}
+            {GraphicId}
         </div>
     )
    
